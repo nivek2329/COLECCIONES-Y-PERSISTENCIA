@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TransmilenioException
+comment0.text=\r\n\ Excepci\u00F3n\ base\ del\ sistema\ Transmilenio.\r\n\ Esta\ clase\ sirve\ como\ superclase\ para\ las\ excepciones\r\n\ espec\u00EDficas\ del\ dominio\ del\ sistema,\ permitiendo\r\n\ manejar\ de\ forma\ jer\u00E1rquica\ los\ errores\ relacionados\r\n\ con\ la\ l\u00F3gica\ del\ Transmilenio.\r\n\ @author\ DOPO\ TEAM\ 2026-1\r\n\ @version\ 2.0\r\n
+comment1.params=mensaje
+comment1.target=TransmilenioException(java.lang.String)
+comment1.text=\r\n\ Construye\ una\ excepci\u00F3n\ del\ sistema\ Transmilenio\r\n\ con\ un\ mensaje\ descriptivo.\r\n\r\n\ @param\ mensaje\ mensaje\ que\ describe\ la\ causa\ del\ error\r\n
+numComments=2

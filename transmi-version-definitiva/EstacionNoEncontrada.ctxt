@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=EstacionNoEncontrada
+comment0.text=\r\n\ Excepci\u00F3n\ que\ se\ lanza\ cuando\ se\ intenta\ acceder\ o\ consultar\r\n\ una\ estaci\u00F3n\ que\ no\ existe\ en\ el\ sistema\ Transmilenio.\r\n\ Esta\ excepci\u00F3n\ es\ un\ tipo\ espec\u00EDfico\ de\ {TransmilenioException}\r\n\ y\ representa\ una\ violaci\u00F3n\ de\ la\ precondici\u00F3n\ de\ los\ servicios\r\n\ que\ requieren\ que\ la\ estaci\u00F3n\ est\u00E9\ registrada\ previamente.\r\n\ @author\ DOPO\ TEAM\ 2026-1\r\n\ @version\ 2.0\r\n
+comment1.params=nombre
+comment1.target=EstacionNoEncontrada(java.lang.String)
+comment1.text=\r\n\ Construye\ la\ excepci\u00F3n\ indicando\ el\ nombre\ de\ la\ estaci\u00F3n\r\n\ que\ no\ existe\ en\ el\ sistema.\r\n\r\n\ @param\ nombre\ nombre\ de\ la\ estaci\u00F3n\ no\ encontrada\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment2.text=\r\n\ Retorna\ el\ nombre\ de\ la\ estaci\u00F3n\ que\ caus\u00F3\ la\ excepci\u00F3n.\r\n\r\n\ @return\ nombre\ de\ la\ estaci\u00F3n\ no\ encontrada\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Transmilenio
+comment0.text=\r\n\ Representa\ el\ sistema\ Transmilenio.\r\n\ Esta\ clase\ act\u00FAa\ como\ fachada\ del\ sistema\ y\ es\ responsable\r\n\ de\ gestionar\ las\ estaciones\ y\ rutas,\ as\u00ED\ como\ de\ ofrecer\r\n\ los\ servicios\ solicitados\ en\ el\ enunciado\ del\ problema.\r\n\ Entre\ los\ servicios\ implementados\ se\ encuentran\:\r\n\ Consulta\ del\ tiempo\ de\ espera\ de\ una\ estaci\u00F3n\r\n\ Listado\ de\ rutas\ ordenadas\ alfab\u00E9ticamente\r\n\ Consulta\ de\ rutas\ sin\ transbordos\ entre\ dos\ estaciones\r\n\ @author\ DOPO\ TEAM\ 2026-1\r\n\ @version\ 2.0\r\n
+comment1.params=
+comment1.target=Transmilenio()
+comment1.text=\r\n\ Construye\ un\ sistema\ Transmilenio\ vac\u00EDo,\r\n\ inicializando\ las\ colecciones\ de\ rutas\ y\ estaciones.\r\n
+comment2.params=e
+comment2.target=void\ agregarEstacion(Estacion)
+comment2.text=\r\n\ Agrega\ una\ estaci\u00F3n\ al\ sistema.\r\n\r\n\ @param\ e\ estaci\u00F3n\ a\ agregar\r\n
+comment3.params=r
+comment3.target=void\ agregarRuta(Ruta)
+comment3.text=\r\n\ Agrega\ una\ ruta\ al\ sistema.\r\n\r\n\ @param\ r\ ruta\ a\ agregar\r\n
+comment4.params=nombreEstacion
+comment4.target=int\ getTiempoEspera(java.lang.String)
+comment4.text=\r\n\ Servicio\ 1.\r\n\ Retorna\ el\ tiempo\ de\ espera\ de\ una\ estaci\u00F3n\ dado\ su\ nombre.\r\n\ El\ tiempo\ de\ espera\ depende\ del\ nivel\ de\ ocupaci\u00F3n\r\n\ asociado\ a\ la\ estaci\u00F3n.\r\n\r\n\ @param\ nombreEstacion\ nombre\ de\ la\ estaci\u00F3n\ a\ consultar\r\n\ @return\ tiempo\ de\ espera\ en\ minutos\r\n\ @throws\ EstacionNoEncontrada\ si\ la\ estaci\u00F3n\ no\ existe\ en\ el\ sistema\r\n
+comment5.params=
+comment5.target=java.util.List\ getRutasOrdenadas()
+comment5.text=\r\n\ Servicio\ 2.\r\n\ Retorna\ los\ nombres\ de\ las\ rutas\ del\ sistema\r\n\ ordenados\ alfab\u00E9ticamente.\r\n\r\n\ @return\ lista\ de\ nombres\ de\ rutas\ ordenados\r\n
+comment6.params=nombreE1\ nombreE2
+comment6.target=java.util.List\ getRutasSinTransbordo(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Servicio\ 4.\r\n\ Retorna\ las\ rutas\ que\ permiten\ ir\ de\ una\ estaci\u00F3n\ a\ otra\r\n\ sin\ realizar\ transbordos.\r\n\ Las\ rutas\ se\ retornan\ ordenadas\ seg\u00FAn\:\r\n\ Menor\ n\u00FAmero\ de\ paradas\r\n\ Orden\ alfab\u00E9tico\ por\ nombre\ de\ ruta\r\n\r\n\ @param\ nombreE1\ nombre\ de\ la\ estaci\u00F3n\ de\ origen\r\n\ @param\ nombreE2\ nombre\ de\ la\ estaci\u00F3n\ de\ destino\r\n\ @return\ lista\ de\ nombres\ de\ rutas\ que\ permiten\ el\ recorrido\ sin\ transbordos\r\n\ @throws\ EstacionNoEncontrada\ si\ alguna\ estaci\u00F3n\ no\ existe\ en\ el\ sistema\r\n
+numComments=7

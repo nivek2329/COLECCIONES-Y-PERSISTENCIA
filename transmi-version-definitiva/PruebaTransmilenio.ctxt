@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PruebaTransmilenio
+comment0.text=\r\n\ Clase\ de\ prueba\ del\ sistema\ Transmilenio.\r\n\ Esta\ clase\ se\ encarga\ de\ crear\ estaciones,\ rutas\ y\ cargar\r\n\ la\ informaci\u00F3n\ en\ el\ sistema\ para\ verificar\ el\ correcto\r\n\ funcionamiento\ de\ los\ servicios\ implementados.\r\n\ En\ particular,\ se\ prueban\ los\ servicios\:\r\n\ Servicio\ 1\:\ Tiempo\ de\ espera\ de\ una\ estaci\u00F3n\r\n\ Servicio\ 2\:\ Rutas\ del\ sistema\ ordenadas\ alfab\u00E9ticamente\r\n\ Servicio\ 4\:\ Rutas\ sin\ transbordos\ entre\ dos\ estaciones\r\n\ @author\ DOPO\ TEAM\ 2026-1\r\n\ @version\ 2.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ M\u00E9todo\ principal\ de\ ejecuci\u00F3n\ de\ las\ pruebas.\r\n\ Crea\ las\ estaciones\ y\ rutas\ del\ sistema,\ las\ registra\r\n\ en\ una\ instancia\ de\ {Transmilenio}\ y\ ejecuta\r\n\ pruebas\ sobre\ los\ servicios\ solicitados\ en\ el\ enunciado.\r\n\r\n\ @param\ args\ argumentos\ de\ l\u00EDnea\ de\ comandos\ (no\ utilizados)\r\n
+comment2.params=tm\ nombre
+comment2.target=void\ probarServicio1(Transmilenio,\ java.lang.String)
+comment2.text=\r\n\ Prueba\ el\ servicio\ 1\ del\ sistema\ Transmilenio.\r\n\ Dado\ el\ nombre\ de\ una\ estaci\u00F3n,\ se\ intenta\ obtener\r\n\ y\ mostrar\ su\ tiempo\ de\ espera.\ Si\ la\ estaci\u00F3n\ no\ existe,\r\n\ se\ captura\ y\ muestra\ la\ excepci\u00F3n\ correspondiente.\r\n\r\n\ @param\ tm\ instancia\ del\ sistema\ Transmilenio\r\n\ @param\ nombre\ nombre\ de\ la\ estaci\u00F3n\ a\ consultar\r\n
+comment3.params=tm\ e1\ e2
+comment3.target=void\ probarServicio4(Transmilenio,\ java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Prueba\ el\ servicio\ 4\ del\ sistema\ Transmilenio.\r\n\ Dadas\ dos\ estaciones,\ se\ consultan\ las\ rutas\ que\ permiten\r\n\ realizar\ el\ recorrido\ entre\ ellas\ sin\ realizar\ transbordos.\r\n\ Si\ alguna\ estaci\u00F3n\ no\ existe,\ se\ captura\ la\ excepci\u00F3n.\r\n\r\n\ @param\ tm\ instancia\ del\ sistema\ Transmilenio\r\n\ @param\ e1\ nombre\ de\ la\ estaci\u00F3n\ de\ origen\r\n\ @param\ e2\ nombre\ de\ la\ estaci\u00F3n\ de\ destino\r\n
+numComments=4
