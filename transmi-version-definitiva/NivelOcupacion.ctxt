@@ -1,4 +1,0 @@
-#BlueJ class context
-comment0.target=NivelOcupacion
-comment0.text=\r\n\ Representa\ el\ nivel\ de\ ocupaci\u00F3n\ de\ una\ estaci\u00F3n\ del\ sistema\ Transmilenio.\r\n\ El\ nivel\ de\ ocupaci\u00F3n\ indica\ la\ cantidad\ de\ usuarios\ presentes\ en\ una\r\n\ estaci\u00F3n\ y\ es\ utilizado\ para\ determinar\ el\ tiempo\ de\ espera\ asociado\r\n\ a\ dicha\ estaci\u00F3n.\r\n\ @author\ DOPO\ TEAM\ 2026-1\r\n\ @version\ 2.0\r\n
-numComments=1
